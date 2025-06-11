@@ -1,8 +1,8 @@
 // Declare variables below to save the different divs of your story.
-
-
-
-
+let startingScreen = document.querySelector(".story-opening");
+let optionOneScreen = document.querySelector(".option-one-screen");
+let optionTwoScreen = document.querySelector(".option-two-screen");
+let optionOneEnd = document.querySelector(".")
 
 
 
