@@ -128,6 +128,8 @@ reset.addEventListener("click", function() {
     screenThirteen.style.display = "none";
     screenFourteen.style.display = "none";
     optionOnebtn.style.display = "inline";
+    optionOnebtn.innerHTML = "go left";
     optionTwobtn.style.display = "inline";
+    optionTwobtn.innerHTML = "go right";
     reset.style.display = "none";
 })
