@@ -1,21 +1,21 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
 
-.option-one-screen,
-.option-one_one-screen,
-.option-one_one_one-screen,
-.option-one_one_two-screen,
-.option-one_two-screen,
-.option-one_two_one-screen,
-.option-one_two_two-screen,
-.option-two-screen,
-.option-two_one-screen,
-.option-two_one_one-screen,
-.option-two_one_two-screen,
-.option-two_two-screen,
-.option-two_two_one-screen,
-.option-two_two_two-screen {
-   display:none;
+.screen-one,
+.screen-two,
+.screen-three,
+.screen-four,
+.screen-five,
+.screen-six,
+.screen-seven,
+.screen-eight,
+.screen-nine,
+.screen-ten,
+.screen-eleven,
+.screen-twelve,
+.screen-thirteen,
+.screen-fourteen {
+   display: none;
 }
 
 
@@ -88,20 +88,20 @@ button:hover {
 }
 
 /* Style the screens for option one and option two */
-.option-one-screen, 
-.option-one_one-screen, 
-.option-one_one_one-screen, 
-.option-one_one_two-screen, 
-.option-one_two-screen,
-.option-one_two_one-screen, 
-.option-one_two_two-screen, 
-.option-two-screen,
-.option-two_one-screen,
-.option-two_one_one-screen,
-.option-two_one_two-screen,
-.option-two_two-screen,
-.option-two_two_one-screen,
-.option-two_two_two-screen {
+.screen-one, 
+.screen-two, 
+.screen-three, 
+.screen-four, 
+.screen-five,
+.screen-six, 
+.screen-seven, 
+.screen-eight,
+.screen-nine,
+.screen-ten,
+.screen-eleven,
+.screen-twelve,
+.screen-thirteen,
+.screen-fourteen {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
@@ -111,40 +111,41 @@ button:hover {
 }
 
 /* Style the images in the screens */
-.option-one-screen img,
-.option-one_one-screen img,
-.option-one_one_one-screen img,
-.option-one_one_two-screen img,
-.option-one_two-screen img,
-.option-one_two_one-screen img,
-.option-one_two_two-screen img,
-.option-two-screen img,
-.option-two_one-screen img,
-.option-two_one_one-screen img,
-.option-two_one_two-screen img,
-.option-two_two-screen img,
-.option-two_two_one-screen img,
-.option-two_two_two-screen img {
+.screen-one img,
+.screen-two img,
+.screen-three img,
+.screen-four img,
+.screen-five img,
+.screen-six img,
+.screen-seven img,
+.screen-eight img,
+.screen-nine img,
+.screen-ten img,
+.screen-eleven img,
+.screen-twelve img,
+.screen-thirteen img,
+.screen-fourteen img {
+    width: 30%;
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
 /* Style the text in the screens */
-.option-one-screen h1,
-.option-one_one-screen h1,
-.option-one_one_one-screen h1,
-.option-one_one_two-screen h1,
-.option-one_two-screen h1,
-.option-one_two_one-screen h1,
-.option-one_two_two-screen h1,
-.option-two-screen h1,
-.option-two_one-screen h1,
-.option-two_one_one-screen h1,
-.option-two_one_two-screen h1,
-.option-two_two-screen h1,
-.option-two_two_one-screen h1,
-.option-two_two_two-screen h1 {
+.screen-one h1,
+.screen-two h1,
+.screen-three h1,
+.screen-four h1,
+.screen-five h1,
+.screen-six h1,
+.screen-seven h1,
+.screen-eight h1,
+.screen-nine h1,
+.screen-ten h1,
+.screen-eleven h1,
+.screen-twelve h1,
+.screen-thirteen h1,
+.screen-fourteen h1 {
     font-size: 20px;
     margin-bottom: 20px;
 }
