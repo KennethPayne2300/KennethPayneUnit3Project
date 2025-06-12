@@ -87,6 +87,10 @@ button:hover {
     background-color: #0056b3;
 }
 
+.reset {
+    display: none;
+}
+
 /* Style the screens for option one and option two */
 .screen-one, 
 .screen-two, 

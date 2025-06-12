@@ -15,6 +15,7 @@ const screenThirteen = document.querySelector(".screen-thirteen");
 const screenFourteen = document.querySelector(".screen-fourteen");
 const optionOnebtn = document.querySelector(".option-one-button");
 const optionTwobtn = document.querySelector(".option-two-button");
+const reset = document.querySelector(".reset");
 
 let screenNumber = 0;
 // console.log(optionOneScreen, optionTwoScreen)
@@ -45,21 +46,25 @@ optionOnebtn.addEventListener('click', function() {
         screenNumber = 5;
         optionOnebtn.style.display = "none";
         optionTwobtn.style.display = "none";
+        reset.style.display = "inline";
     }else if (screenNumber == 4) {
         screenSix.style.display = "block";
         screenNumber = 6;
         optionOnebtn.style.display = "none";
         optionTwobtn.style.display = "none";
+        reset.style.display = "inline";
     }else if (screenNumber == 9) {
         screenEleven.style.display = "block";
         screenNumber = 11;
         optionOnebtn.style.display = "none";
         optionTwobtn.style.display = "none";
+        reset.style.display = "inline";
     }else if (screenNumber == 10) {
         screenTwelve.style.display = "block";
         screenNumber = 12;
         optionOnebtn.style.display = "none";
         optionTwobtn.style.display = "none";
+        reset.style.display = "inline";
     }
 });
 
@@ -85,20 +90,44 @@ optionTwobtn.addEventListener('click', function() {
         screenNumber = 7;
         optionOnebtn.style.display = "none";
         optionTwobtn.style.display = "none";
+        reset.style.display = "inline";
     }else if (screenNumber == 4) {
         screenEight.style.display = "block";
         screenNumber = 8;
         optionOnebtn.style.display = "none";
         optionTwobtn.style.display = "none";
+        reset.style.display = "inline";
     }else if (screenNumber == 9) {
         screenThirteen.style.display = "block";
         screenNumber = 13;
         optionOnebtn.style.display = "none";
         optionTwobtn.style.display = "none";
+        reset.style.display = "inline";
     }else if (screenNumber == 10) {
         screenFourteen.style.display = "block";
         screenNumber = 14;
         optionOnebtn.style.display = "none";
         optionTwobtn.style.display = "none";
+        reset.style.display = "inline";
     }
 });
+
+reset.addEventListener("click", function() {
+    screenOne.style.display = "none";
+    screenTwo.style.display = "none";
+    screenThree.style.display = "none";
+    screenFour.style.display = "none";
+    screenFive.style.display = "none";
+    screenSix.style.display = "none";
+    screenSeven.style.display = "none";
+    screenEight.style.display = "none";
+    screenNine.style.display = "none";
+    screenTen.style.display = "none";
+    screenEleven.style.display = "none";
+    screenTwelve.style.display = "none";
+    screenThirteen.style.display = "none";
+    screenFourteen.style.display = "none";
+    optionOnebtn.style.display = "inline";
+    optionTwobtn.style.display = "inline";
+    reset.style.display = "none";
+})
