@@ -31,6 +31,7 @@ body {
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    color: #ce3019;
     text-align: center;
     padding: 20px;
 }
@@ -44,7 +45,7 @@ body {
 
 /* Style the story opening container */
 .story-opening {
-    background-color: #fff;
+    background-image: linear-gradient(to left, #221c1d, #daba7f);
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
