@@ -25,6 +25,7 @@ let screenNumber = 0;
 //  - Then fill in the blanks with the correct variables.
 
 optionOnebtn.addEventListener('click', function() {
+    // when  option 1 is clicked go through to the option 1 path
     if (screenNumber == 0) {
         // console.log("option 1 chosen");
         screenOne.style.display = "block";
@@ -69,8 +70,9 @@ optionOnebtn.addEventListener('click', function() {
 });
 
 optionTwobtn.addEventListener('click', function() {
+    // when  option 2 is clicked go through to the option 2 path
     if (screenNumber == 0) {
-        // console.log("option 1 chosen");
+        // console.log("option 2 chosen");
         screenTwo.style.display = "block";
         screenNumber = 2;
         optionOnebtn.innerHTML = "Talk to it";
@@ -113,6 +115,7 @@ optionTwobtn.addEventListener('click', function() {
 });
 
 reset.addEventListener("click", function() {
+    // when the reset button is clicked undo everything
     screenOne.style.display = "none";
     screenTwo.style.display = "none";
     screenThree.style.display = "none";
